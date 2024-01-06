@@ -8,10 +8,11 @@
 /*color variables */
 :root {
   --primary-color: #fd6e0a;
-  --seconder-color: #fff4ec;
+  --secondery-color: #fff4ec;
   --primary-text: #181818;
   --secondary-text: #757575;
   --importent-text: #ffffff;
+  --footer-color: #ffeadc;
 }
 /*styling logo*/
 .logo {
@@ -110,19 +111,20 @@ nav a {
 /*main section*/
 main {
   background: #fffcfa;
+ padding: 100px 0 0 0;
 }
 .container {
   max-width: 1140px;
-  margin: 150px auto;
+  margin: 0px auto;
 }
 .about-me {
   text-align: center;
   padding: 100px;
-  background-color: var(--seconder-color);
+  background-color: var(--secondery-color);
   border-radius: 10px;
 }
 .about-me > h3 {
-  font-size: 35px;
+  font-size: 30px;
   margin-bottom: 20px;
 }
 .about-me > p {
@@ -192,12 +194,37 @@ p {
   color: var(--secondary-text);
   margin: 10px 0;
 }
-.resume-content-details{
-    padding: 30px;
+.resume-content-details {
+  padding: 30px;
 }
-.resume hr{
-    margin: 20px 0;
+.resume hr {
+  margin: 20px 0;
 }
-.download-CV{
-    text-align: center;
+.download-CV {
+  text-align: center;
+}
+/*footer style*/
+footer {
+  display: flex;
+  gap: 100px;
+  background: var(--footer-color);
+  margin-top: 100px;
+  padding: 130px 200px;
+}
+.footer-column{
+    width: 50%;
+    padding: 20px;
+}
+.footer-column img{
+    margin-right: 50px;
+}
+.contact-form input[type="text"],input[type="email"], textarea{
+    display: block;
+    margin: 25px 0;
+    padding: 18px 35px;
+    color: var(--secondary-text);
+    border-radius: 5px;
+    border: 0;
+    background: var(--importent-text);
+    width: 100%;
 }
