@@ -47,7 +47,8 @@ nav a {
 }
 .header {
   background-color: var(--seconder-color);
-  background-image: url("../images/header_bg.png"), url("../images/developer.png");
+  background-image: url("../images/header_bg.png"),
+    url("../images/developer.png");
   background-repeat: no-repeat;
   background-position: bottom right, top left;
 }
@@ -107,66 +108,93 @@ nav a {
   cursor: pointer;
 }
 /*main section*/
-main{
-    background: #fffcfa;
+main {
+  background: #fffcfa;
 }
-.container{
-    max-width: 1140px;
-    margin: 150px auto;
+.container {
+  max-width: 1140px;
+  margin: 150px auto;
 }
-.about-me{
-    text-align: center;
-    padding: 100px;
-    background-color: var(--seconder-color);
-    border-radius: 10px;
+.about-me {
+  text-align: center;
+  padding: 100px;
+  background-color: var(--seconder-color);
+  border-radius: 10px;
 }
-.about-me > h3{
-     font-size: 35px;
-     margin-bottom: 20px;
+.about-me > h3 {
+  font-size: 35px;
+  margin-bottom: 20px;
 }
-.about-me >p{
-    color: var(--secondary-text);
-    line-height: normal;
-    padding: 20px;
+.about-me > p {
+  color: var(--secondary-text);
+  line-height: normal;
+  padding: 20px;
 }
-.about-me .about-info{
-    display: flex;
-    justify-content: space-around;
-    padding: 10px;
+.about-me .about-info {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
 }
-.about-me .about-info p{
-    font-size: 20px;
-    color: var(--secondary-text);
+.about-me .about-info p {
+  font-size: 20px;
+  color: var(--secondary-text);
 }
-.about-me .about-info h5{
-    font-size: 20px;
-    color: var(--primary-text);
+.about-me .about-info h5 {
+  font-size: 20px;
+  color: var(--primary-text);
 }
-.what-i-do{
-    margin:auto;
-    text-align: center;
-    margin-top: 50px;
-    padding: 50px 100px;
+.what-i-do {
+  margin: auto;
+  text-align: center;
+  margin-top: 50px;
+  padding: 50px 100px;
 }
-.what-i-do h3{
-    font-size: 30px;
-    font-weight: 600;
-    margin-bottom: 20px;
+.what-i-do h3 {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 20px;
 }
-.what-i-do p{
-    color: var(--secondary-text);
+.what-i-do p {
+  color: var(--secondary-text);
 }
-.skills{
-    display: flex;
+.skills {
+  display: flex;
 }
-.skills .skill-content{
-    background-color: var(--importent-text);
-    color: var(--secondary-text);
-    padding: 40px;
-    margin: 0 20px;
-    border-radius: 5;
+.skills .skill-content {
+  background-color: var(--importent-text);
+  color: var(--secondary-text);
+  padding: 40px;
+  margin: 0 20px;
+  border-radius: 5;
 }
-.skill-content img,h4{
-    margin-bottom: 10px;
-    color: var(--primary-text);
+.skill-content img,
+h4 {
+  margin-bottom: 10px;
+  color: var(--primary-text);
+}
+/*cv area styles*/
+.resume-content {
+  display: flex;
+  padding: 20px;
+  justify-content: space-around;
+}
+.resume > h3 {
+  text-align: center;
+  font-size: 35px;
+  margin-top: 100px;
+}
+.resume-content h2 {
+  font-size: 30px;
+  margin: 10px 0 20px 0;
+}
+.resume-content h4,
+p {
+  color: var(--secondary-text);
+  margin: 10px 0;
+}
+.resume-content-details{
+    padding: 30px;
+}
+.resume hr{
+    margin: 20px 0;
 }
